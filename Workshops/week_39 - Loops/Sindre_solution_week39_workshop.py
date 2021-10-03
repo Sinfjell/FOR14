@@ -78,13 +78,14 @@ print("In your selected word, there are {} vowels".format(count))
 
 
 #%%
-# Exercise 1N
+# Exercise 1b
 
 sentence = int(input("How many words should we test for vowals?: "))
 count = 0
 i = 0
 
 # Loop will run the amount of times = sentence 
+
 for i in range(sentence) :
     word = input("Write out a english word: ")
     i = i + 1
@@ -96,13 +97,54 @@ for i in range(sentence) :
     
     print("In your {}. word, there are {} vowels".format(i, count))        
         
-                
-  
+#%% Exercise 1c
 
+count = 0
+i = False
 
+# Loop will run the amount of times = sentence 
+
+while i == False :
+    word = input("Write out a english word: ")
+    i = i + 1
     
-       
+    # Testing for vowels in a word
+    for vowel in word :
+        if vowel in ("a", "e", "i", "o", "u"):
+            count = count + 1
+    
+    print("In your {}. word, there are {} vowels".format(i, count))
+    moreWords = input('Do you wish another draw? Type "Y" to continue, and "N" to quit: ')             
+    if moreWords == "Y": 
+        i == False 
+    else: 
+        i == True
+        
+print("Thanks for the time! Bye!")        
 
+#%% Exercise 2
+cont = True
+total = 0
+
+while cont == True :
+    no_exam = int(input("How many exams?"))
+    
+    # Ask the user for the grades
+    for i in range(no_exam):
+        i = i + 1
+        score = int(input("Grade {}: ".format(i)))
+        total = total + score            
+        i = i + 1    
+    
+    average = total / no_exam
+    print("Your average score is {}".format(average))
+    
+    another_student = input("Do you want to do this for another student? Type Y to continue, and N to quit")
+    if another_student == "Y":
+        cont == True
+    else: 
+        cont == False
+        
 
 
 
