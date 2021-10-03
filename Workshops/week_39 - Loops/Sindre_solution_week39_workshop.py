@@ -78,14 +78,30 @@ print("In your selected word, there are {} vowels".format(count))
 
 
 #%%
+# Exercise 1N
 
-Input = word
-Output = Count of vowels
+sentence = int(input("How many words should we test for vowals?: "))
+count = 0
+i = 0
 
-for all lettters in word do :
-    if word = aecdu:
-        count = count + 1
+# Loop will run the amount of times = sentence 
+for i in range(sentence) :
+    word = input("Write out a english word: ")
+    i = i + 1
+    
+    # Testing for vowels in a word
+    for vowel in word :
+        if vowel in ("a", "e", "i", "o", "u"):
+            count = count + 1
+    
+    print("In your {}. word, there are {} vowels".format(i, count))        
         
+                
+  
+
+
+    
+       
 
 
 
