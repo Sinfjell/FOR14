@@ -1,0 +1,48 @@
+Russia:145,934,462
+Germany:83,783,942
+United Kingdom:67,886,011
+France:65,273,511
+Italy:60,461,826
+Spain:46,754,778
+Ukraine:43,733,762
+Poland:37,846,611
+Romania:19,237,691
+Netherlands:17,134,872
+Belgium:11,589,623
+Czech Republic:10,708,981
+Greece:10,423,054
+Portugal:10,196,709
+Sweden:10,099,265
+Hungary:9,660,351 
+Belarus:9,449,323 
+Austria:9,006,398 
+Serbia:8,737,371 
+Switzerland:8,654,622 
+Bulgaria:6,948,445 
+Denmark:5,792,202 
+Finland:5,540,720 
+Slovakia:5,459,642 
+Norway:5,421,241 
+Ireland:4,937,786 
+Croatia:4,105,267 
+Moldova:4,033,963 
+Bosnia and Herzegovina:3,280,819
+Albania:2,877,797
+Lithuania:2,722,289
+North Macedonia:2,083,374
+Slovenia:2,078,938
+Latvia:1,886,198
+Estonia:1,326,535
+Montenegro:628,066  
+Luxembourg:625,978  
+Malta:441,543  
+Iceland:341,243  
+Channel Islands:173,863  
+Isle of Man:85,033   
+Andorra:77,265   
+Faeroe Islands:48,863   
+Monaco:39,242   
+Liechtenstein:38,128   
+San Marino:33,931   
+Gibraltar:33,691   
+Holy See:801	   
